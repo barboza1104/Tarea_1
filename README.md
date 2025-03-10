@@ -67,11 +67,11 @@ Example of integration in a dense neural network:
     import numpy as np
     from activation_functions import relu, sigmoid
     
-    Hidden layer with ReLU
+    //Hidden layer with ReLU
     hidden_layer = np.array([1.2, -0.5, 3.1])
     activated_hidden = relu(hidden_layer) # [1.2, 0.0, 3.1] # [1.2, 0.0, 3.1].
     
-    Output layer with Sigmoid
+    //Output layer with Sigmoid
     output_layer = np.array([0.8, -1.0])
     predictions = sigmoid(output_layer) # [0.68997, 0.26894] # [0.68997, 0.26894].
 
